@@ -1,6 +1,6 @@
 # num_methods
 
-C++ based for academic studies related to Numerical Methods and it's algorithms
+C++ based repository for academic studies related to Numerical Methods and it's algorithms
 
 ### Implemented features
 - **Linear Systems**
