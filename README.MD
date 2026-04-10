@@ -1,8 +1,10 @@
 # num_methods
 
-C++ based repository for academic studies related to Numerical Methods and it's algorithms
+C++ and octave based repository for academic studies related to Numerical Methods and it's algorithms
 
-### Implemented features
+## C++
+
+### Features
 - **Linear Systems**
   - Gaussian Elimination
   - Cholesky decomposition
@@ -14,7 +16,11 @@ C++ based repository for academic studies related to Numerical Methods and it's 
 ### Build
 
 ```bash
+# on cpp dir
 mkdir build && cd build
 cmake ..
 make
 ```
+
+## Octave
+...
