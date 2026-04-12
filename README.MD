@@ -23,4 +23,25 @@ make
 ```
 
 ## Octave
-...
+
+### Features
+- Cholesky decomposition
+- Gram Schmidt process
+- Gram Schmidt GR decomposition
+- QR decomposition
+- Back substitution
+- Projections:
+  - Scalar projection
+  - Vector projection
+  - Orthogonal complement
+
+### Requirements
+- GNU Octave, version 10.2.0
+
+### Build
+
+```bash
+# on octave dir
+octave
+octave:1> run main.m
+```
