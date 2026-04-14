@@ -25,15 +25,18 @@ make
 ## Octave
 
 ### Features
+- Back substitution
 - Cholesky decomposition
+- Forward susbtitution
+- Gauss elimination
+- Gauss-Jordan elimination
 - Gram Schmidt process
 - Gram Schmidt GR decomposition
-- QR decomposition
-- Back substitution
 - Projections:
   - Scalar projection
   - Vector projection
   - Orthogonal complement
+- QR decomposition
 
 ### Requirements
 - GNU Octave, version 10.2.0
