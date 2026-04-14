@@ -23,4 +23,29 @@ make
 ```
 
 ## Octave
-...
+
+### Features
+- Back substitution
+- Cholesky decomposition
+- Forward susbtitution
+- Gauss elimination
+- Gauss-Jordan elimination
+- Gram Schmidt process
+- Gram Schmidt GR decomposition
+- 'PA=LU' decomposition
+- Projections:
+  - Scalar projection
+  - Vector projection
+  - Orthogonal complement
+- QR decomposition
+
+### Requirements
+- GNU Octave, version 10.2.0
+
+### Build
+
+```bash
+# on octave dir
+octave
+octave:1> run main.m
+```
