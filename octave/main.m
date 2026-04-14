@@ -94,3 +94,20 @@ disp("solving x using back_substitution:");
 x = back_substitution(R, y)
 
 disp("octave solution (A \\ b):"), disp(A \ b);
+
+disp("[PA=LU decomposition using partial pivoting]")
+disp("input:"); A
+[P, L, U] = palu_decomposition(A)
+
+disp("PA = LU derivation");
+disp("Ax = b => ");
+disp("PAx = Pb =>");
+disp("LUx = Pb =>                      (substitute PA for LU)");
+disp("Ly = Pb =>     (solve for y using forward substitution)");
+disp("Ux = y            (solve for x using back substitution)");
+disp("solving x");
+
+x = back_substitution(U, forward_substitution(L, P * b))
+
+disp("octave solution (A \\ b):"), disp(A \ b);
+

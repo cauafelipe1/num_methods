@@ -32,6 +32,7 @@ make
 - Gauss-Jordan elimination
 - Gram Schmidt process
 - Gram Schmidt GR decomposition
+- 'PA=LU' decomposition
 - Projections:
   - Scalar projection
   - Vector projection
