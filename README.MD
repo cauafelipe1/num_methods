@@ -30,6 +30,7 @@ make
 - Forward susbtitution
 - Gauss elimination
 - Gauss-Jordan elimination
+- Gauss-Seidel iteration
 - Gram Schmidt process
 - Gram Schmidt GR decomposition
 - 'PA=LU' decomposition
